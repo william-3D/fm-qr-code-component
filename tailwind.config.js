@@ -6,7 +6,12 @@ const colors = require("tailwindcss/colors");
 module.exports = {
   prefix: "tw-",
   content: [
-    // "./src/**/*.{html,vue}",
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./app.vue",
+    "./error.vue",
   ],
   theme: {
     screens: {
