@@ -1,4 +1,13 @@
 .page-container {
-    @apply tw-h-screen
-    tw-bg-[#D5E1EF];
-  }
+    @apply tw-h-screen tw-bg-[#D5E1EF];
+
+    .card {
+        @apply tw-bg-white;
+
+        .qr-code {
+            @apply tw-m-4
+            tw-h-40
+            tw-w-40;
+        }
+    }
+}
