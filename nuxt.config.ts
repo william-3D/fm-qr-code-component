@@ -1,10 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  css: ["~/assets/css/quasar.scss"],
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  modules: ["nuxt-quasar-ui", "@nuxtjs/tailwindcss"],
+  quasar: {},
   postcss: {
     plugins: {
-      tailwindcss: {},
+      tailwindcss: {
+        cssPath: '~/assets/css/tailwind.css',
+        configPath: 'tailwind.config'
+      },
       autoprefixer: {},
     },
   },
