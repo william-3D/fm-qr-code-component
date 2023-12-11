@@ -13,4 +13,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  router: {
+    base: '/fm-qr-code-component/'
+  }
 });
