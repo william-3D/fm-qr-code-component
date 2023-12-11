@@ -1,27 +1,38 @@
 .page-container {
-    @apply tw-h-screen tw-bg-[#D5E1EF]
+  @apply tw-h-screen tw-bg-[#D5E1EF]
     tw-flex tw-justify-center
     tw-items-center;
 
-    .card {
-        @apply tw-bg-white
+  .card {
+    @apply tw-bg-white
         tw-rounded-3xl
         tw-h-[60%]
-        tw-w-[80%];
+        tw-w-[85%]
+        tw-drop-shadow-2xl;
 
-        .qr-code {
-            @apply tw-m-4
-            tw-h-40
-            tw-w-40;
-        }
+    .card-content-wrapper {
+      @apply tw-flex tw-flex-col
+      tw-items-center
+      tw-m-5
+      tw-text-center
+      tw-gap-5;
 
-        .title {
-            @apply tw-text-xl
-            tw-font-extrabold;
-        }
+      .qr-code {
+        @apply 
+                tw-w-72
+                tw-rounded-2xl;
+      }
 
-        .subtitle {
-            @apply tw-text-base
-        }
+      .title {
+        @apply tw-text-xl
+                tw-font-extrabold
+                tw-text-[#1F314F];
+      }
+
+      .subtitle {
+        @apply tw-text-base
+        tw-text-[#7D889E];
+      }
     }
+  }
 }
