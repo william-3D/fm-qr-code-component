@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/fm-qr-code-component',
+    buildAssetsDir: 'assets',
+  },
   css: ["~/assets/css/quasar.scss"],
   devtools: { enabled: true },
   modules: ["nuxt-quasar-ui", "@nuxtjs/tailwindcss"],
@@ -13,7 +17,4 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  router: {
-    base: '/fm-qr-code-component/'
-  }
 });
