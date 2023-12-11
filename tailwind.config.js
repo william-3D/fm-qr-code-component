@@ -15,11 +15,11 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
     },
     extend: {
       colors: {
@@ -31,11 +31,11 @@ module.exports = {
         // }, //tw-text-sc-big-red //tw-bg-sc-big-red
       },
       fontFamily: {
-        sans: [],
-        serif: [],
+        roboto: ["Roboto", "sans-serif"],
       },
+
       fontSize: {
-        // 'sc-h1': [ 
+        // 'sc-h1': [
         //   '64px', // font size, can use px, rem
         //   {
         //     lineHeight: '80px',

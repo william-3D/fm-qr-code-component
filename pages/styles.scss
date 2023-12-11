@@ -14,5 +14,14 @@
             tw-h-40
             tw-w-40;
         }
+
+        .title {
+            @apply tw-text-xl
+            tw-font-extrabold;
+        }
+
+        .subtitle {
+            @apply tw-text-base
+        }
     }
 }
