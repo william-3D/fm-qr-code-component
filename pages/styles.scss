@@ -1,8 +1,13 @@
 .page-container {
-    @apply tw-h-screen tw-bg-[#D5E1EF];
+    @apply tw-h-screen tw-bg-[#D5E1EF]
+    tw-flex tw-justify-center
+    tw-items-center;
 
     .card {
-        @apply tw-bg-white;
+        @apply tw-bg-white
+        tw-rounded-3xl
+        tw-h-[60%]
+        tw-w-[80%];
 
         .qr-code {
             @apply tw-m-4
